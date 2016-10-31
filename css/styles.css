@@ -1,0 +1,767 @@
+@font-face {
+    font-family: montserrat-light;
+    src: url('/resources/fonts/Montserrat-UltraLight.otf');
+}
+@font-face{
+    font-family: lora;
+    src: url('/resources/fonts/Lora-Regular.ttf');
+}
+@font-face{
+    font-family: lato-light;
+    src: url('/resources/fonts/Lato-Hairline.ttf');
+}
+@font-face{
+    font-family: lato-italic;
+    src: url('/resources/fonts/Lato-LightItalic.ttf');
+}
+@font-face{
+    font-family: lato-italic;
+    src: url('http://wwww.jlamerican-remax.com/resources/fonts/Lato-LightItalic.ttf');
+}
+@font-face{
+    font-family: trajan;
+    src: url('/resources/fonts/Trajan.ttf');
+}
+body{
+    background: #E6E6E6;
+}
+#ihf-main-container fieldset{
+    padding: 25px !important;
+    font-family: montserrat-light;
+    margin: 5px 0 -25px 0 !important;
+    background: #E6E6E6;
+    opacity: .9;
+}
+.row{}
+/* ----------------- NAVIGATION --------------- */
+nav{
+    background: #19334d;
+    opacity: .9;
+}
+.nav{
+    padding: 20px;
+    font-family: Lato;
+    color: white;
+    cursor: pointer;
+}
+.nav-logo{
+    position: relative;
+    bottom: 0;
+    height: 65px;
+    width: 75px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -0);
+    transform: translate(-50%, -0);
+    margin: 75% 0 0 0;
+    background: url('/images/Main/sm-logo.png');
+}
+.remaxLogo{
+    height: 60px;
+}
+.remaxLogo img{
+    padding-right: 10px;
+    position: relative;
+    height: 75%;
+    float: right;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+/* -------------- FOOTER ------------------ */
+footer{
+    background: #30475F;
+}
+footer span:first-child{}
+footer span:nth-child(2){
+    color: white;
+    display: none;
+}
+footer span:nth-child(3){
+    color: white;
+    display: none;
+}
+footer span:nth-child(4){
+    color: white;
+    display: none;
+}
+footer span:nth-child(5){
+    color: white;
+    display: none;
+}
+.footer{
+    height: 90%;
+}
+.footer-icons{
+    margin-top: 5%;
+}
+footer h3{
+    text-align: center;
+    color: #999;
+}
+.icons{
+    position: relative;
+}
+footer img{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+footer img:hover{
+    opacity: 0;
+}
+footer img:nth-child(2){
+    position: absolute;
+    opacity: 0;
+}
+footer img:nth-child(2):hover{
+    opacity: 1;
+}
+footer ul{
+    padding: 10px;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+footer ul a{
+    color: white;
+    text-align: center;
+}
+footer ul a:hover{
+    color: black;
+}
+.credits{
+    background: white;
+}
+.copyright{
+    font-family: lato;
+    text-align: center;
+    color: #59485F;
+    font-size: 12px;
+    height: auto;
+    background: #999;
+
+}
+
+/* ------------------ HOME ----------------*/
+.main{
+    height: 550px;
+    background: url('/images/Main/Luxury-home.jpg');
+    background-size: cover;
+    box-shadow: 0 2px 4px gray;
+}
+.main h1{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 4em;
+    margin: 10px 5px;
+    font-weight: 500;
+    font-family: trajan;
+}
+.banner h2{
+    font-family: lato-light;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    line-height: 1.25;
+    color: #333;
+    font-size: 1.6em;
+    padding: 50px;
+}
+.banner h2 img{
+    left: 60px;
+    height: 25px;
+    width: auto;
+}
+.main h3{
+    font-size: 1.75em;
+    font-family: montserrat-light, montserrat;
+    text-align: center;
+    color: #666;
+    font-weight: 100;
+    margin: 10px 5px;
+}
+.main img{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.main-headings-wrapper{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 25px 0;
+    display: none;
+}
+.sm-icon-wrapper{
+    width: 25%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 25px 0;
+
+}
+.main-img{
+    position: absolute;
+    height: 500px;
+    width: 25%;
+    left: -325px;
+    top: 185px;
+}
+.main-img img{
+    height: 100%;
+    z-index: 0;
+}
+.main-img-2{
+    position: absolute;
+    height: 250px;
+    width: 25%;
+    top: 300px;
+    display: none;
+}
+.main-img-2 img{
+    height: 100%;
+    z-index: 0;
+}
+/* -------------- FEATURED PROPERTIES -------------- */
+
+.featured-properties{
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    background: white;
+    box-shadow: 0 0 10px gray;
+    padding: 0 0 100px 0;
+}
+.featured-properties h3{
+    font-family: montserrat-light, montserrat;
+    font-size: 1em;
+    color: #999;
+    padding: 100px 0 5px 20px;
+    text-align: center;
+}
+.featured-properties h4{
+    font-size: 2.25em;
+    font-family: montserrat-light, montserrat;
+    padding: 5px 20px;
+    text-align: center;
+}
+.first-col{
+    position: relative;
+    height: 150px;
+    margin: 20px 0;
+}
+.second-col{
+    position: relative;
+    height: 207px;
+    margin: 20px 0;
+}
+.third-col{
+    position: relative;
+    height: 320px;
+    margin: 20px 0;
+}
+.featured-properties h2{
+    height: auto;
+    width: auto;
+    font-family: lato-light;
+    position: relative;
+    color: white;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-size: 1.5em;
+    text-align: center;
+}
+#prop1{
+    background: url('/images/Main/prop1.jpg');
+    background-size: cover;
+}
+#prop2{
+    background: url('/images/Main/prop2.jpg');
+    background-size: cover;
+}
+#prop3{
+    background: url('/images/Main/prop3.jpg');
+    background-size: cover;
+}
+#prop4{
+    background: url('/images/Main/prop4.jpg');
+    background-size: cover;
+}
+#prop5{
+    background: url('/images/Main/prop5.jpg');
+    background-size: cover;
+}
+#prop6{
+    background: url('/images/Main/prop6.jpg');
+    background-size: cover;
+}
+#prop7{
+    background: url('/images/Main/prop7.jpg');
+    background-size: cover;
+}
+#prop8{
+    background: url('/images/Main/prop8.jpg');
+    background-size: cover;
+}
+#prop9{
+    background: url('/images/Main/prop9.jpg');
+    background-size: cover;
+}
+#prop1:hover{
+    background: url('/images/Main/prop1-dark.jpg');
+    background-size: cover;
+}
+#prop1:hover > .toHide{
+    display: none;
+}
+#prop2:hover{
+    background: url('/images/Main/prop2-dark.jpg');
+    background-size: cover;
+}
+#prop2:hover > .toHide{
+    display: none;
+}
+#prop3:hover{
+    background: url('/images/Main/prop3-dark.jpg');
+    background-size: cover;
+}
+#prop3:hover > .toHide{
+    display: none;
+}
+#prop4:hover{
+    background: url('/images/Main/prop4-dark.jpg');
+    background-size: cover;
+}
+#prop4:hover > .toHide{
+    display: none;
+}
+#prop5:hover{
+    background: url('/images/Main/prop5-dark.jpg');
+    background-size: cover;
+}
+#prop5:hover > .toHide{
+    display: none;
+}
+#prop6:hover{
+    background: url('/images/Main/prop6-dark.jpg');
+    background-size: cover;
+}
+#prop6:hover > .toHide{
+    display: none;
+}
+#prop7:hover{
+    background: url('/images/Main/prop7-dark.jpg');
+    background-size: cover;
+}
+#prop7:hover > .toHide{
+    display: none;
+}
+#prop8:hover{
+    background: url('/images/Main/prop8-dark.jpg');
+    background-size: cover;
+}
+#prop8:hover > .toHide{
+    display: none;
+}
+#prop9:hover{
+    background: url('/images/Main/prop9-dark.jpg');
+    background-size: cover;
+}
+#prop9:hover > .toHide{
+    display: none;
+}
+.writing:hover > .toShow h3{
+    display: inherit;
+}
+.writing{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.toShow{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.writing h3{
+    color: white;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+    display: none;
+
+}
+.writing h2{
+    font-family: montserrat-light;
+    height: auto;
+    margin: 10px;
+    display: none;
+}
+/* -------------------- IDX PAGES ----------------- */
+
+.idx-wrapper{
+    padding: 100px 0;
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.idx-pages{
+    height: 850px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    background: white;
+    box-shadow: 0 0 10px gray;
+}
+.idx-pages h3{
+    font-family: montserrat-light, montserrat;
+    font-size: 1em;
+    color: #999;
+    padding: 100px 0 5px 20px;
+    text-align: center;
+}
+.idx-pages h4{
+    font-size: 2.25em;
+    font-family: montserrat-light, montserrat;
+    padding: 5px 20px;
+    text-align: center;
+}
+.idx-page-wrapper{
+    margin: 50px;
+}
+.idx-page-wrapper h3{
+    padding: 5px;
+    color: black;
+}
+.idx-card-bg{
+    height: 200px;
+    background: #3578b7;
+}
+.idx-card-bg img{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    padding: 30px 30px 15px 30px;
+}
+.idx-card-bg p{
+    text-align: center;
+    font-family: Montserrat-Light, montserrat;
+    color: #fff;
+    padding: 25px;
+}
+.idx-card{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.contact-img{
+    height: 200px;
+    background: url('/images/Main/contact1.jpg');
+    background-size: cover;
+}
+.contact-logos img{
+    padding: 0;
+    margin: 0;
+}
+.contact-img img{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.sm-logo{
+    margin: 25px 0;
+    background: url('/images/Main/sm-logo.png');
+    height: 60px;
+    width: 70px;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.remaxGold{
+    height: 65px;
+    width: 220px;
+    background: url('/resources/icons/remaxGold-btn.png');
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+/* -------------------- AGENTS ----------------- */
+.agents{
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    padding: 0 0 100px 0;
+}
+.agents h3{
+    font-family: montserrat-light, montserrat;
+    font-size: 1em;
+    color: #999;
+    padding: 100px 0 5px 20px;
+    text-align: center;
+}
+.agents h4{
+    font-size: 2.25em;
+    font-family: montserrat-light, montserrat;
+    padding: 5px 20px;
+    text-align: center;
+}
+.agentFilter{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: cover;
+    display: none;
+}
+.agentInfo-wrapper{
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background: white;
+    box-shadow: 0 0 25px white;
+    display: none;
+
+}
+.agent-close{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    font-family: lato;
+}
+.agent-close:hover{
+    color: #666;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+.agent-info{
+    clear: both;
+    position: relative;
+    width: 200px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.agent-info.before{
+    margin: 100px 0 0 0;
+}
+.agent-info.after{
+    margin: 0;
+}
+.agent-info:hover{
+    opacity: .5;
+    cursor: pointer;
+
+}
+.agent-img{
+    background: url('/images/Main/agent_jeg.png');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #531300;
+}
+.agentImg{
+    background: url('/images/Main/javier-main.png');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #531300;
+}
+.agent-info h2{
+    font-family: montserrat-light;
+    color: #531300;
+    padding: 10px 0;
+}
+.agent-info h3{
+    padding: 0;
+    text-align: center;
+}
+.agentP{
+    width: 75%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.agentP p{
+    padding: 25px 0;
+    text-align: left;
+}
+/* -------------------- ABOUT ----------------- */
+.about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    background: white;
+    box-shadow: 0 0 10px gray;
+    padding: 0 0 100px 0;
+}
+.about-us{
+    margin-top: 50px;
+}
+.module{
+    padding: 0;
+    cursor: pointer;
+}
+.about-us .module{
+    background: #6A1B9A;
+}
+.about-us .module:hover{
+    opacity: .5;
+}
+.about-us img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.about h3{
+    font-family: montserrat-light, montserrat;
+    font-size: 1em;
+    color: #999;
+    padding: 100px 0 5px 20px;
+    text-align: center;
+}
+.about h4{
+    font-size: 2.25em;
+    font-family: montserrat-light, montserrat;
+    padding: 5px 20px;
+    text-align: center;
+}
+.about-us p{
+    color: white;
+}
+.about-us h3{
+    font-size: 1.25em;
+    padding: 25px;
+    color: white;
+    border-radius: 5px;
+}
+.about-us h1{
+    padding: 0 10px;
+}
+.about-us h4{
+    font-size: 1em;
+    color: #999;
+    padding: 10px 0 10px 25px;
+    background: #7B1FA2;
+    border-radius: 5px;
+}
+.page-popout{
+    position: absolute;
+    height: 55%;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: none;
+}
+.page-popout h2{
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+.page-popout p{
+    color: white;
+    padding: 10px 50px;
+    font-family: lato;
+    line-height: 1.5;
+    text-align: center;
+}
+.page-popout img{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 20px 0;
+}
+.page-popout-close{
+    font-family: montserrat;
+    color: #666;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 25px 0;
+    padding: 10px;
+    border: 1px solid white;
+}
+.page-popout-close:hover{
+    background: #f2f2f2;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+.commitment{
+    height: 100%;
+    box-shadow: 0 0 100px black;
+    background: #999;
+    border-radius: 5px;
+    display: none;
+}
+.history{
+    height: 100%;
+    box-shadow: 0 0 100px black;
+    background: #999;
+    border-radius: 5px;
+    display: none;
+}
+.philosophy{
+    height: 100%;
+    box-shadow: 0 0 100px black;
+    background: #999;
+    border-radius: 5px;
+    display: none;
+}
+.filter{
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    background: black;
+    opacity: .7;
+    display: none;
+    margin-top: -10%;
+}

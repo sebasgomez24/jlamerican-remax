@@ -1,0 +1,226 @@
+/* ------------ GRID -------------- */
+*, *:after, *:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fAfAfA;
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    width: auto;
+}
+.grid:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+[class*='col-']{
+    float: left;
+    padding-right: 20px;
+}
+[class*='col-']:last-of-type{
+    padding-right: 0;
+}
+.grid-pad{
+    padding: 20px 0 20px 20px;
+}
+.grid-pad > [class*='col-']:last-of-type{
+    padding-right: 20px;
+}
+
+/* ----------- TYPOGRAPHY --------------*/
+h1{
+    font-family: Montserrat;
+    text-align: center;
+}
+h2{
+    font-family: Montserrat;
+    text-align: center;
+}
+h3{
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+p{
+    font-family: Roboto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: Roboto;
+}
+@font-face {
+    font-family: montserrat-light;
+    src: url('/resources/fonts/Montserrat-UltraLight.otf');
+}
+@font-face{
+    font-family: lora;
+    src: url('/resources/fonts/Lora-Regular.ttf');
+}
+@font-face{
+    font-family: lato-italic;
+    src: url('/resources/fonts/Lato-LightItalic.ttf');
+}
+
+/* ------------ COLUMNS (1 - 12) ------------- */
+.col-1_1{ width: 100%; }
+.col-1_2{ width: 50%; }
+.col-1_3{ width: 33.33%; }
+.col-2_3{ width: 66.66%; }
+.col-1_4{ width: 25%; }
+.col-3_4{ width: 75%; }
+.col-1_5{ width: 20%; }
+.col-2_5{ width: 40%; }
+.col-3_5{ width: 60%; }
+.col-4_5{ width: 80%; }
+.col-1_6{ width: 16.66%; }
+.col-5_6{ width: 83%; }
+.col-1_7{ width: 14.29%; }
+.col-2_7{ width: 28.57%; }
+.col-3_7{ width: 42.86%; }
+.col-4_7{ width: 57.14%; }
+.col-5_7{ width: 71.43%; }
+.col-6_7{ width: 85.71%; }
+.col-1_8{ width: 12.5%; }
+.col-3_8{ width: 37.5%; }
+.col-5_8{ width: 62.5%; }
+.col-7_8{ width: 87.5%; }
+.col-1_9{ width: 11.11%; }
+.col-2_9{ width: 22.22%; }
+.col-4_9{ width: 44.44%; }
+.col-5_9{ width: 55.55%; }
+.col-7_9{ width: 77.77%; }
+.col-8_9{ width: 88.88%; }
+.col-1_10{ width: 10%; }
+.col-3_10{ width: 30%; }
+.col-7_10{ width: 70%; }
+.col-9_10{ width: 90%; }
+.col-1_11{ width: 9.09%; }
+.col-2_11{ width: 18.18%; }
+.col-3_11{ width: 27.27%; }
+.col-4_11{ width: 36.36%; }
+.col-5_11{ width: 45.45%; }
+.col-6_11{ width: 54.54%; }
+.col-7_11{ width: 63.63%; }
+.col-8_11{ width: 72.72%; }
+.col-9_11{ width: 81.81%; }
+.col-10_11{ width: 90.90%; }
+.col-1_12{ width: 8.33%; }
+.col-5_12{ width: 41.66%; }
+.col-7_12{ width: 58.33%; }
+.col-11_12{ width: 91.66%; }
+
+/* ----------- MODULES ----------*/
+.module{
+    border-radius: 2.5px;
+    box-shadow: 0 1px 5px gray;
+    padding: 10px;
+    margin: 10px 0;
+    background: white;
+}
+.module:hover{
+    box-shadow: 0 1px 15px gray;
+}
+/* ----------- NAVIGATION ------------*/
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 1px 8px black;
+    background: white;
+}
+.nav{}
+.navigation{
+    position: fixed;
+    width: 275px;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    overflow-y: scroll;
+    left: -275px;
+}
+.navigation h1{
+    font-size: 1em;
+    padding: 25px;
+    font-family: montserrat-light, montserrat;
+    color: #333;
+}
+.dropdown{
+    font-family: Montserrat;
+}
+.navigation-menu-list{
+    padding: 25px;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+.show {display:block;}
+.main-content-plusNav{}
+.main-content{}
+.nav-close{
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .8;
+    display: none;
+}
+footer{
+    height: 225px;
+    width: 100%;
+    position: static;
+    bottom: 30px;
+    background: white;
+    clear: both;
+}
+.credits{
+    position: static;
+    width: 100%;
+    height: 75px;
+    bottom: 30px;
+}
+.sebas-credit{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+#created-by{
+    font-family: lato-italic, ;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+#sebas-designs{
+    text-align: center;
+    font-family: Montserrat;
+    color: #999;
+}
+.copyright{
+    position: static;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    opacity: .8;
+    padding: 5px;
+}
+/* ----------- PAGE MANAGEMENT ---------------- */
+.wrapper{
+    margin: 0;
+    padding: 0;
+}

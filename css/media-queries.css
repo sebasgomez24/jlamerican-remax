@@ -1,0 +1,289 @@
+@media only screen and (max-width: 1200px){
+    .main h1{
+        font-size: 3.75em;
+    }
+    .idx-page-wrapper h3{
+        font-size: .75em;
+    }
+    .remaxGold{
+        width: 170px;
+        height: 50px;
+    }
+    .remaxGold{
+        width: 120px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .main h1{
+        font-size: 3.25em;
+    }
+    .main-headings-wrapper{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .featured-properties h2{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 950px){
+    .main-headings-wrapper{
+        width: 70%;
+    }
+    .main h1{
+        font-size: 3em;
+    }
+    .idx-pages{
+        height: 1100px;
+    }
+    .idx-page-wrapper h3{
+        font-size: 1em;
+        text-align: center;
+    }
+    .responsive{
+        width: 50%;
+    }
+    .responsive-mobile{
+        width: 50%;
+    }
+    .about-us h3{
+        font-size: 1em;
+        padding: 15px;
+    }
+    .about-us h4{
+        font-size: .9em;
+        padding:5px 15px;
+    }
+    .page-popout{
+        height: 40%;
+    }
+    .agentInfo-wrapper{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .banner h2 {
+        width: 100%;
+    }
+    .col-2_5{
+        width: 50%;
+    }
+    .second-col{
+        display: none;
+    }
+}
+@media only screen and (max-width: 850px){
+    .main h1{
+        font-size: 3em;
+    }
+    .responsive-mobile{
+        width: 50%;
+    }
+    .page-popout{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 805px){
+    .main-headings-wrapper{
+        width: 75%;
+    }
+    .main h1{
+        font-size: 2.25em;
+    }
+}
+@media only screen and (max-width: 750px){
+    .main-img{
+        display: none;
+    }
+    .main-img-2{
+        display: inherit;
+    }
+}
+@media only screen and (max-width: 700px){
+    .main h1{
+        font-size: 2.5em;
+    }
+    .main h2{
+        width: 60%;
+    }
+    .main h3{
+        font-size: 1.25em;
+    }
+    .responsive-mobile{
+        width: 50%;
+    }
+    .about-us h4{
+        display: inherit;
+    }
+    .responsive-contact{
+        width: 100%;
+    }
+    .contact-card{
+        height: 100%;
+    }
+    .contact-img{
+        display: none;
+    }
+    .remaxLogo{
+        display: none;
+    }
+    .page-popout{
+        width: 95%;
+        height: 45%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .page-popout{
+
+        height: 45%;
+    }
+    .idx-page-wrapper{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 575px){
+    .main h2{
+        width: 75%;
+    }
+    .responsive-nav{
+        width: 100%;
+    }
+    .responsive-mobile{
+        width: 100%;
+    }
+    footer{
+        height: 375px;
+    }
+    .responsive-footer{
+        display: none;
+    }
+    .responsive-footer-one{
+        width: 100%;
+    }
+    .responsive-footer-two{
+        width: 100%;
+    }
+    .responsive{
+        width: 100%;
+    }
+    .about-us img{
+        display: none;
+    }
+    .page-popout{
+        height: 75%;
+        width: 100%;
+    }
+    .responsive-credit-blank{
+        display: none;
+    }
+    .responsive-credit{
+        width: 33.33%;
+    }
+    .sm-icon-wrapper{
+        width: 50%;
+    }
+    .sm-icon-wrapper img{
+        height: 20px;
+    }
+    .third-col{
+        display: none;
+    }
+    .col-2_5{
+        width: 100%;
+    }
+    .idx-pages{
+        height: 1600px;
+    }
+    .agent-info.after{
+        padding-top: 50px;
+    }
+    .agentP p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 450px){
+
+    .copyright p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 440px){
+    body {
+        overflow-x: hidden;
+    }
+
+}
+@media only screen and (max-width: 415px){
+    .copyright p{
+        font-size: 13px;
+    }
+    .main h1{
+        font-size: 1.5em;
+    }
+    .main h3 {
+        font-size: 1em;
+        color: black;
+    }
+    .idx-pages h4 {
+        font-size: 1.75em;
+    }
+    .about h4 {
+        font-size: 1.75em;
+    }
+    .featured-properties h4{
+        font-size: 1.75em;
+    }
+    .about-us h4 {
+        font-size: .9em;
+    }
+    .main-img-2{
+        top: 250px;
+        height: 200px;
+    }
+    .nav{
+        font-size: 14px;
+    }
+    .main {
+        height: 450px;
+    }
+    .main h2{
+        font-size: 1.25em;
+    }
+    .page-popout{
+        height: 80%;
+    }
+    .page-popout-close{
+        margin: 5px 0;
+    }
+    .banner h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .page-popout{
+        height: 85%;
+    }
+    .featured-properties h2{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 350px){
+    .nav{
+        font-size: 12px;
+    }
+    .copyright p{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 305px){
+    .responsive-icon{
+        width: 50%;
+    }
+    .page-popout{
+        height: 100%;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+}
